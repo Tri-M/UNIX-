@@ -1,0 +1,32 @@
+
+-bash-4.3$ ls
+
+
+-bash-4.3$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/loc                                                                                        al/games
+-bash-4.3$ echo $HOME
+
+-bash-4.3$ echo $SHELL
+
+-bash-4.3$ chsh
+
+-bash-4.3$ cat /etc/shells
+# /etc/shells: valid login shells
+/bin/sh
+/bin/dash
+/bin/bash
+/bin/rbash
+
+-bash-4.3$ ls -i accounts.txt
+33292302 accounts.txt
+-bash-4.3$ ls -i /bin
+
+-bash-4.3$ ls -l
+
+-bash-4.3$ ls -l /dev
+
+-bash-4.3$ chmod u=r assgn1 pineapple.txt
+-bash-4.3$ nl newfile.txt
+
+     1  Mads\nBeck\nTessa\nShinchan\nNobita\nDoraemon\nHulk\n
+     2  Trisha\nBeck\nTessa\nShinchan\nNobita\nDoraemon\nHulk\n
