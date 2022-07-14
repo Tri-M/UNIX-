@@ -3,7 +3,8 @@
 
 
 -bash-4.3$ echo $PATH
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/loc                                                                                        al/games
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
 -bash-4.3$ echo $HOME
 
 -bash-4.3$ echo $SHELL
@@ -38,6 +39,8 @@ fdssdvcvdbdbdbd
 fdgdffdfdbfdb
 
 -bash-4.3$ ps
+
+#ps command is used to list the currently running processes and their PIDs along with some other information depends on different options. 
   PID TTY          TIME CMD
  1445 pts/6    00:00:00 bash
  4085 pts/6    00:00:00 ps
