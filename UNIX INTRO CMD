@@ -73,3 +73,30 @@ cgroup     coredump_filter  exe      io       maps       mountstats  oom_adj    
 #proc is a virtual file system
 #creates a folder for every process
 #display process attributes
+
+-bash-4.3$ nl -bpf longfile.txt
+
+#numbers lines beginning with f 
+
+     1  fdssdvcvdbdbdbd
+     2  fdgdffdfdbfdb
+     3  fdgfdgdfgfd
+     4  fdgfdgfdg
+     5  dsfsdfsdfs
+     6  sgfgfdgfdgfgd
+     7  gdfgfgfdgfd
+     8  fgdfgfdfgdfdgd
+     9  fdgfdgfdgfdgd
+    10  sdfsdffdsggfgfdgfdg
+    11  fdgfdgfdgfdgfdg
+    12  dfgfdgfdggfd
+    13  fdgfdgfdgfdgfd
+       hgjjkjhkhjkhjkjhkjh
+       jhkjhkjhkjhkhjk
+       yutuytuytuytu
+       bnvbnbnvbnvbnvbnvb
+       bcvbbvbvc
+       werrer
+       qwewqwqrr
+       wqewqrwqrerewr
+
