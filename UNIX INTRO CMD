@@ -19,6 +19,8 @@
 
 -bash-4.3$ ls -i accounts.txt
 33292302 accounts.txt
+
+
 -bash-4.3$ ls -i /bin
 
 -bash-4.3$ ls -l
@@ -34,3 +36,37 @@
 -bash-4.3$ head -n2 longfile.txt
 fdssdvcvdbdbdbd
 fdgdffdfdbfdb
+
+-bash-4.3$ ps
+  PID TTY          TIME CMD
+ 1445 pts/6    00:00:00 bash
+ 4085 pts/6    00:00:00 ps
+
+-bash-4.3$ ls /proc
+1     13    149    1585  1670  20    23    27     2980   3100   3203   3336  36    3769  3905  4238  4562  65   881        driver       kpageflags    softirqs
+10    1309  1494   1588  1690  2002  2325  2714   2982   31122  32092  3365  3606  377   3908  4240  4565  66   9          execdomains  loadavg       stat
+1069  1321  1499   1593  17    2004  2329  28     29831  31246  32192  3366  3607  3773  3937  4270  4594  68   96         fb           locks         swaps
+1075  1332  15     1596  1711  2053  2333  2807   29909  31258  32360  34    3614  3778  3938  4271  4595  69   97         filesystems  mdstat        sys
+1089  1341  150    16    1712  2066  2362  2813   29912  31261  32369  3412  365   3780  3982  4347  4599  7    973        fs           meminfo       sysrq-trigger
+1097  1342  1500   160   1717  207   2363  2816   29942  31290  32373  3420  366   38    3990  4349  46    70   983        interrupts   misc          sysvipc
+11    1410  1508   1611  1720  208   25    2846   29943  31291  32402  3424  367   3835  3993  4352  4601  703  acpi       iomem        modules       thread-self
+1172  1411  151    162   1750  21    2592  2847   3      31307  32403  3454  37    3836  4023  4381  4602  71   buddyinfo  ioports      mounts        timer_list
+1177  142   1513   1620  1752  2117  2594  29     30     31391  3274   3455  3704  3837  4024  4382  4613  72   bus        ipmi         mtrr          timer_stats
+1178  143   1514   163   1760  216   2596  2927   3013   31393  3283   3469  3717  3838  411   4499  469   73   cgroups    irq          net           tty
+1183  144   152    1640  1778  219   2597  2933   3014   31423  3284   3489  3718  3854  4146  4512  47    74   cmdline    kallsyms     pagetypeinfo  uptime
+1189  1442  15256  1645  1781  22    26    2936   30619  31424  3291   3491  3750  3857  4166  4515  48    75   consoles   kcore        partitions    version
+1194  1445  15257  1653  18    2210  2607  2966   30653  3147   3294   3494  3751  3887  4192  4522  49    782  cpuinfo    keys         sched_debug   version_signature
+12    145   153    1657  1810  2214  2612  2967   30654  3169   33     35    3754  3888  4196  4526  5     783  crypto     key-users    schedstat     vmallocinfo
+1237  146   15314  1659  1811  224   2615  29704  3070   3173   3323   3523  376   3895  4225  4555  506   789  devices    kmsg         scsi          vmstat
+1298  147   15316  1663  1914  2270  2645  29707  3096   32     3324   3524  3760  3898  4226  4556  573   8    diskstats  kpagecgroup  self          zoneinfo
+1299  148   1581   1666  2     2272  2646  2971   31     3202   3333   3573  3766  39    423   4557  606   83   dma        kpagecount   slabinfo
+
+-bash-4.3$ ls /proc/1
+attr       clear_refs       cpuset   fd       limits     mem         net        oom_score      projid_map  sessionid  stat     task
+autogroup  cmdline          cwd      fdinfo   loginuid   mountinfo   ns         oom_score_adj  root        setgroups  statm    timers
+auxv       comm             environ  gid_map  map_files  mounts      numa_maps  pagemap        sched       smaps      status   uid_map
+cgroup     coredump_filter  exe      io       maps       mountstats  oom_adj    personality    schedstat   stack      syscall  wchan
+
+#proc is a virtual file system
+#creates a folder for every process
+#display process attributes
