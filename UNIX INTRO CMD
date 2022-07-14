@@ -30,3 +30,7 @@
 
      1  Mads\nBeck\nTessa\nShinchan\nNobita\nDoraemon\nHulk\n
      2  Trisha\nBeck\nTessa\nShinchan\nNobita\nDoraemon\nHulk\n
+     
+-bash-4.3$ head -n2 longfile.txt
+fdssdvcvdbdbdbd
+fdgdffdfdbfdb
