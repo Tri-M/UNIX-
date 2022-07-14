@@ -99,4 +99,29 @@ cgroup     coredump_filter  exe      io       maps       mountstats  oom_adj    
        werrer
        qwewqwqrr
        wqewqrwqrerewr
+       
+-bash-4.3$ cut -c5 longfile.txt
+#print 5th character of each line
+d
+f
+d
+d
+d
+f
+f
+g
+d
+d
+d
+d
+d
+k
+h
+y
+n
+b
+e
+q
+q
+e
 
