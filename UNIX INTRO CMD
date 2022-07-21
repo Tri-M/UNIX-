@@ -174,7 +174,13 @@ geophysics is my fav sub
 geophysics study of earth
 geophysics social science
 
- 
+#file exists or not 
+FILE=geology.txt
+if test -f "$FILE"; then
+    echo "$FILE exists."
+fi
+
+
 
 
 
