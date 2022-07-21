@@ -180,6 +180,8 @@ if test -f "$FILE"; then
     echo "$FILE exists."
 fi
 
+#view permissions 
+ls -lah 
 
 
 
