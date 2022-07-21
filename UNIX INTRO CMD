@@ -161,6 +161,19 @@ done
 echo "The longest user name is $MAX_LEN_USERNAME"
 echo "The shortest user name is $MIN_LEN_USERNAME"
 
+
+#text replace geology geophysics 
+-bash-4.3$ cat geology.txt
+geology is my fav sub
+geology study of earth
+geology social science
+
+-bash-4.3$ sed -i -e 's/geology/geophysics/g' geology.txt
+-bash-4.3$ cat geology.txt
+geophysics is my fav sub
+geophysics study of earth
+geophysics social science
+
  
 
 
