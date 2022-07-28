@@ -247,5 +247,9 @@ do
 done
 
 echo $fact
+____________________________________________________________________
+#a.	Content of /etc/passwd (first 15 lines)
+
+head -15 /etc/passwd
 
 
